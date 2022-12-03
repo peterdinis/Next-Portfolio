@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
+import Seo from './Seo';
 
 interface Props {
     children: React.ReactNode;
@@ -8,6 +9,7 @@ interface Props {
 export default function Layout(props: Props) {
     return (
         <>
+            <Seo />
             <Navbar />
             {props.children}
         </>
