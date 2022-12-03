@@ -1,9 +1,10 @@
-import React from 'react'
+import KnowledgeWrapper from "./KnowledgeWrapper";
 
-function Knowledge() {
+export default function Knowledge() {
+
   return (
-    <div>Knowledge</div>
-  )
+    <div className="pb-2">
+        <KnowledgeWrapper />
+    </div>
+  );
 }
-
-export default Knowledge
