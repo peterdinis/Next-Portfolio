@@ -25,3 +25,8 @@ model Knownledge {
   image String
   description String
 }
+
+model Image {
+  id String @id @default(cuid())
+  name String
+}
