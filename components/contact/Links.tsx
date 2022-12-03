@@ -1,4 +1,4 @@
-import styles from "../../styles/Components.module.css";
+import styles from "../../styles/Component.module.css";
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -7,7 +7,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 export default function Links() {
     return (
         <>
-        <div className={styles.linkGrid}>
+        <div className={styles.linksGrid}>
           <a
             className="text-red-800 mt-2 text-3xl"
             href="https://www.facebook.com/peto.dinis/"
