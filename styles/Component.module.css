@@ -27,6 +27,17 @@
     text-shadow: 2px 2px 2px #eee;
     padding: 2px;
   }
+
+  .buttonWrapper {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .infoText {
+    font-size: 1.6rem;
+  }
   
   .linksGrid {
     margin-top: 3rem !important;
