@@ -18,3 +18,10 @@ model Project {
   githubLink String
   link String
 }
+
+model Knownledge {
+  id String @id @default(cuid())
+  name String
+  image String
+  description String
+}
