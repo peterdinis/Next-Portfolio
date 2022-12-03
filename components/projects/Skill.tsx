@@ -1,9 +1,17 @@
-import React from 'react'
-
-function Skill() {
-  return (
-    <div>Skill</div>
-  )
+interface IProps {
+    name: string
+    status: string
 }
 
-export default Skill
+function Skill({name, status}: IProps) {
+    return (
+      <>
+        <h1 className="pt-3 text-3xl ml-2">
+          {name} - {status}
+        </h1>
+      </>
+    );
+  }
+  
+  export default Skill;
+  
