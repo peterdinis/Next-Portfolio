@@ -7,6 +7,9 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <Info />
+      <ContactInfo />
+      <Footer />
     </>
   )
 }
