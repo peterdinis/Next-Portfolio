@@ -43,4 +43,29 @@ export default function AuthContextProvider({ children }: AuthContextProps) {
   React.useEffect(() => {
     console.log("The user is", user);
   }, [user]);
+
+  function login(email: string, password: string) {
+    return signInWithEmailAndPassword(auth, email, password);
+  }
+
+  function register(email: string, password: string) {
+    return createUserWithEmailAndPassword(auth, email, password);
+  }
+
+  function logout() {
+    return signOut(auth);
+  }
+
+  const value = {
+    user,
+    login,
+    register,
+    logout
+  } as any; // TODO: Later remove any
+
+  return (
+    <AuthContext.Provider value={value}>
+        {children}
+    </AuthContext.Provider>
+  )
 }
