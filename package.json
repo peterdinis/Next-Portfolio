@@ -26,7 +26,6 @@
     "formik": "^2.2.9",
     "i18next": "^22.0.6",
     "i18next-browser-languagedetector": "^7.0.1",
-    "mailgo": "^0.12.2",
     "next": "13.0.6",
     "postcss": "^8.4.19",
     "react": "18.2.0",
