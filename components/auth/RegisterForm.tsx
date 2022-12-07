@@ -22,21 +22,6 @@ function RegisterForm() {
      <Formik>
      <div className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 flex flex-col">
         <div className="mb-4">
-          <div className="mb-6">
-            <label
-              className="block text-grey-darker text-sm font-bold mb-2"
-              htmlFor="password"
-            >
-              Meno
-            </label>
-            <input
-              className="passwordInput shadow appearance-none border border-red rounded w-full py-2 px-3 text-grey-darker mb-3"
-              id="Meno"
-              type="text"
-              autoFocus
-              placeholder="Meno"
-            />
-          </div>
           <label
             className="block text-grey-darker text-sm font-bold mb-2"
             htmlFor="username"
@@ -63,36 +48,6 @@ function RegisterForm() {
             id="password"
             placeholder="******************"
           />
-          <button>Zobraziť heslo</button>
-        </div>
-
-        <div className="mb-6">
-          <label
-            className="block text-grey-darker text-sm font-bold mb-2"
-            htmlFor="password"
-          >
-            Potvrdenie hesla
-          </label>
-          <input
-            className="passwordInput shadow appearance-none border border-red rounded w-full py-2 px-3 text-grey-darker mb-3"
-            id="Potvrdenie hesla"
-            autoFocus
-          />
-          <button>Zobraziť heslo</button>
-        </div>
-
-        <div className="mb-6">
-          <label
-            className="block text-grey-darker text-sm font-bold mb-2"
-            htmlFor="password"
-          >
-            Študentské Id
-          </label>
-          <input
-            className="passwordInput shadow appearance-none border border-red rounded w-full py-2 px-3 text-grey-darker mb-3"
-            id="Potvrdenie hesla"
-          />
-          <button>Zobraziť heslo</button>
         </div>
         <div>
           <button className="reg registerButton" type="submit">
