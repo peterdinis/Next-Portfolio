@@ -13,7 +13,7 @@ function LanguageChange() {
     <>
       {Object.keys(lngs).map((lng) => (
         <button
-          className="bg-red-500 hover:bg-red-700 text-white text-3xl ml-2 font-bold py-2 px-4 rounded-2xl"
+          className="bg-red-500 hover:bg-red-700 rounded-3xl border-r-8 text-white text-3xl ml-2 font-bold py-2 px-4"
           key={lng}
           style={{
             fontWeight: i18n.resolvedLanguage === lng ? "bold" : "normal",
