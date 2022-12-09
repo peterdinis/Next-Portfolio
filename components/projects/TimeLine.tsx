@@ -23,7 +23,7 @@ function TimeLine() {
               <h3 className="mb-3 font-bold text-gray-800 text-xl">
                 Práca pre školu
               </h3>
-              <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
+              <p className="text-xl leading-snug tracking-wide text-gray-900 text-opacity-100">
                 {t("description.workOne")}
               </p>
             </div>
@@ -36,7 +36,7 @@ function TimeLine() {
             </div>
             <div className="order-1 bg-red-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
               <h3 className="mb-3 font-bold text-white text-xl">Think Easy</h3>
-              <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
+              <p className="text-xl font-medium leading-snug tracking-wide text-white text-opacity-100">
               {t("description.workThree")}
               </p>
             </div>
@@ -51,7 +51,7 @@ function TimeLine() {
               <h3 className="mb-3 font-bold text-gray-800 text-xl">
                 Navisys s.r.o.
               </h3>
-              <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
+              <p className="text-xl leading-snug tracking-wide text-gray-900 text-opacity-100">
                 {t("description.workFour")}. Jest Typescript Nestjs Postgresql
               </p>
             </div>
