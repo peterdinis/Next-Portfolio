@@ -72,8 +72,11 @@ function KnowledgeWrapper() {
         <Fade in={open}>
           <Box sx={style}>
             <p className={styles.infoText}>
-              Mierne pokročilý - Pre-intermediate, <br />
-              Učím sa - I'm learning
+              Mierne pokročilý - Pre-intermediate.
+            </p>
+            <br />
+            <p className={styles.infoText}>
+              Učím sa - I am learning
             </p>
           </Box>
         </Fade>
