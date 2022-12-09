@@ -1,3 +1,4 @@
+import type {NextPage} from "next"
 import ContactInfo from "../components/contact/ContactInfo";
 import Hero from "../components/home/Hero";
 import Info from "../components/home/Info";
@@ -6,7 +7,7 @@ import MyProjects from "../components/projects/MyProjects";
 import TimeLine from "../components/projects/TimeLine";
 import Footer from "../components/shared/Footer";
 
-export default function Home() {
+const Home: NextPage = () => {
   return (
     <>
       <Hero />
@@ -19,3 +20,6 @@ export default function Home() {
     </>
   );
 }
+
+
+export default Home;
