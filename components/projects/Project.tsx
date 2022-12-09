@@ -1,10 +1,9 @@
 interface IProps {
     description: string;
-    image?: string; // TODO: Add image later to component
     link: string;
     name: string;
     firstLinkName: string;
-    technologies: string
+    subName:  string
 }
 
 function Project(props: IProps) {
@@ -17,10 +16,7 @@ function Project(props: IProps) {
                 {props.name}
               </h1>
               <p className="hover:cursor-pointer text-2xl py-3 text-gray-600 leading-6">
-                {props.description}
-              </p>
-              <p className="hover:cursor-pointer  text-2xl py-3 text-gray-600 leading-6">
-                {props.technologies}
+                {props.subName}
               </p>
               <button className="border border-green-500 bg-green-500 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-green-600 focus:outline-none focus:shadow-outline">
                 <a
