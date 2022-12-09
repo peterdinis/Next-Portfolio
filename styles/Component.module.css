@@ -52,6 +52,17 @@
     text-align: center;
     scroll-behavior: smooth;
   }
+
+  .buttonWrapper {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .infoText {
+    font-size: 1.6rem;
+  }
   
   @media (max-width: 1039px) {
     .info {

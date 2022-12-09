@@ -1,20 +1,22 @@
-import React from 'react'
+import React from "react";
 import { useTranslation } from "react-i18next";
-import {Modal, Backdrop, Fade, Box} from "@mui/material";
+import { Modal, Backdrop, Fade, Box } from "@mui/material";
 import KnowledgeCard from "./KnowledgeCard";
 import reactLogo from "../../images/react.png";
-import typescriptLogo from "../../images/typescript.png"
-import queryLogo from "../../images/query.svg"
+import typescriptLogo from "../../images/typescript.png";
+import queryLogo from "../../images/query.svg";
 import javascriptLogo from "../../images/javascript.png";
-import nestjsLogo from "../../images/nestjs.svg"
+import nestjsLogo from "../../images/nestjs.svg";
 import pgLogo from "../../images/pg.png";
 import djangoLogo from "../../images/django-logo.png";
-import firebase from "../../images/firebase.png"
+import firebase from "../../images/firebase.png";
 import pythonLogo from "../../images/python.jpg";
 import htmlLogo from "../../images/html.png";
 import cssLogo from "../../images/css.png";
 import nativeLogo from "../../images/native.png";
 import jestLogo from "../../images/jest.png";
+import Image from "next/image";
+import styles from "../../styles/Component.module.css";
 
 const style = {
   position: "absolute",
@@ -27,7 +29,6 @@ const style = {
   boxShadow: 24,
   p: 4,
 };
-
 
 function KnowledgeWrapper() {
   const [open, setOpen] = React.useState(false);
@@ -44,11 +45,11 @@ function KnowledgeWrapper() {
 
   return (
     <>
-    <h1 className="text-center text-4xl text-black mt-6">
+      <h1 className="text-center text-4xl text-black mt-6">
         {t("description.knowledge")}
       </h1>
 
-      <div className="buttonWrapper">
+      <div className={styles.buttonWrapper}>
         <button
           className="border border-green-500 bg-green-500 text-2xl text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-green-600 focus:outline-none focus:shadow-outline"
           onClick={handleOpen}
@@ -70,7 +71,7 @@ function KnowledgeWrapper() {
       >
         <Fade in={open}>
           <Box sx={style}>
-            <p className="infoText">
+            <p className={styles.infoText}>
               Mierne pokročilý - Pre-intermediate, <br />
               Učím sa - I'm learning
             </p>
@@ -78,67 +79,28 @@ function KnowledgeWrapper() {
         </Fade>
       </Modal>
 
-      div className="w-full grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-          <KnowledgeCard
-            image={reactLogo}
-            name="React"
-          />
-          <KnowledgeCard
-            image={typescriptLogo}
-            name="Typescript"
-          />
-          <KnowledgeCard
-            image={queryLogo}
-            name="React-Query"
-          />
-          <KnowledgeCard
-            image={javascriptLogo}
-            name="Javascript"
-          />
-          <KnowledgeCard
-            image={nestjsLogo}
-            name="Nestjs"
-          />
-          <KnowledgeCard
-            image={pgLogo}
-            name="Postgresql"
-          />
-          <KnowledgeCard
-            image={djangoLogo}
-            name="Python Django"
-          />
-          <KnowledgeCard
-            image={firebase}
-            name="Firebase"
-          />
+      <div className="w-full grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+        <KnowledgeCard image={reactLogo as any} name="React" />
+        <KnowledgeCard image={typescriptLogo as any} name="Typescript" />
+        <KnowledgeCard image={queryLogo} name="React-Query" />
+        <KnowledgeCard image={javascriptLogo as any} name="Javascript" />
+        <KnowledgeCard image={nestjsLogo} name="Nestjs" />
+        <KnowledgeCard image={pgLogo as any} name="Postgresql" />
+        <KnowledgeCard image={djangoLogo as any} name="Python Django" />
+        <KnowledgeCard image={firebase as any} name="Firebase" />
 
-          <KnowledgeCard
-            image={pythonLogo}
-            name="Python"
-          />
+        <KnowledgeCard image={pythonLogo as any} name="Python" />
 
-          <KnowledgeCard
-            image={htmlLogo}
-            name="Html"
-          />
+        <KnowledgeCard image={htmlLogo as any} name="Html" />
 
-          <KnowledgeCard
-            image={cssLogo}
-            name="Css"
-          />
+        <KnowledgeCard image={cssLogo as any} name="Css" />
 
-          <KnowledgeCard  
-            image={nativeLogo}
-            name="React-Native"
-          />
+        <KnowledgeCard image={nativeLogo as any} name="React-Native" />
 
-          <KnowledgeCard 
-            image={jestLogo}
-            name="Jest"
-          />
-        </div>
+        <KnowledgeCard image={jestLogo as any} name="Jest" />
+      </div>
     </>
-  )
+  );
 }
 
-export default KnowledgeWrapper
+export default KnowledgeWrapper;
