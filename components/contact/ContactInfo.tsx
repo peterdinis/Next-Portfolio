@@ -1,5 +1,4 @@
 import { Paper } from "@mui/material";
-import Links from "./Links";
 import Mailto from "./Mailto";
 import styles from "../../styles/Component.module.css";
 
@@ -13,7 +12,6 @@ export default function ContactInfo() {
             <p className={styles.infoEmail}>
               <Mailto />
             </p>
-            <Links />
           </Paper>
         </div>
       </div>
