@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { Modal, Backdrop, Fade, Box } from "@mui/material";
+import { Modal,  Fade, Box } from "@mui/material";
 import KnowledgeCard from "./KnowledgeCard";
 import reactLogo from "../../images/react.png";
 import typescriptLogo from "../../images/typescript.png";
@@ -15,7 +15,6 @@ import htmlLogo from "../../images/html.png";
 import cssLogo from "../../images/css.png";
 import nativeLogo from "../../images/native.png";
 import jestLogo from "../../images/jest.png";
-import Image from "next/image";
 import styles from "../../styles/Component.module.css";
 
 const style = {
@@ -64,10 +63,6 @@ function KnowledgeWrapper() {
         open={open}
         onClose={handleClose}
         closeAfterTransition
-        BackdropComponent={Backdrop}
-        BackdropProps={{
-          timeout: 500,
-        }}
       >
         <Fade in={open}>
           <Box sx={style}>
@@ -83,24 +78,24 @@ function KnowledgeWrapper() {
       </Modal>
 
       <div className="w-full grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-        <KnowledgeCard image={reactLogo as any} name="React" />
-        <KnowledgeCard image={typescriptLogo as any} name="Typescript" />
+        <KnowledgeCard image={reactLogo} name="React" />
+        <KnowledgeCard image={typescriptLogo} name="Typescript" />
         <KnowledgeCard image={queryLogo} name="React-Query" />
-        <KnowledgeCard image={javascriptLogo as any} name="Javascript" />
+        <KnowledgeCard image={javascriptLogo} name="Javascript" />
         <KnowledgeCard image={nestjsLogo} name="Nestjs" />
-        <KnowledgeCard image={pgLogo as any} name="Postgresql" />
-        <KnowledgeCard image={djangoLogo as any} name="Python Django" />
-        <KnowledgeCard image={firebase as any} name="Firebase" />
+        <KnowledgeCard image={pgLogo} name="Postgresql" />
+        <KnowledgeCard image={djangoLogo} name="Python Django" />
+        <KnowledgeCard image={firebase} name="Firebase" />
 
-        <KnowledgeCard image={pythonLogo as any} name="Python" />
+        <KnowledgeCard image={pythonLogo} name="Python" />
 
-        <KnowledgeCard image={htmlLogo as any} name="Html" />
+        <KnowledgeCard image={htmlLogo} name="Html" />
 
-        <KnowledgeCard image={cssLogo as any} name="Css" />
+        <KnowledgeCard image={cssLogo} name="Css" />
 
-        <KnowledgeCard image={nativeLogo as any} name="React-Native" />
+        <KnowledgeCard image={nativeLogo} name="React-Native" />
 
-        <KnowledgeCard image={jestLogo as any} name="Jest" />
+        <KnowledgeCard image={jestLogo} name="Jest" />
       </div>
     </>
   );

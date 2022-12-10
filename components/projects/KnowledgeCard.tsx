@@ -1,7 +1,7 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
 interface IProps {
-    image: string;
+  image: string | StaticImageData;
     name: string
 }
 
