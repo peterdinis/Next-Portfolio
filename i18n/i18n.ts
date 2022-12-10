@@ -19,6 +19,7 @@ i18n
           description: {
             ecommerceSimple: "Online shop for selling foods",
             foo: "Online food shop",
+            oldProject: "My old portfolio",
             eshopAPI: "API for online shop",
             socialGraphql: "Simple Social site instagram clone",
             aboutMe: "A few sentences about me",
@@ -76,6 +77,7 @@ i18n
             socialGraphql: "Jednoduchá socialná sieť podobná instagramu",
             insta: "Kópia Instagramu frontend",
             instaBE: "Backend instagram backend",
+            oldProject: "Moje staré portfolio",
             aboutMe: "Pár viet o mne",
             workFour: "(10-Mesiacov) Navisys s.r.o",
             firstSentence: "Ahoj Volám sa Peter Dinis. Mám 21 rokov. Pochádzam z Bardejova. Naštevoval som Strednú priemyselnú školu technickú(SPŠT) v Bardejove. Medzi moje záujmy patrí futbal, volejbal.",

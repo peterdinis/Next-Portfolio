@@ -1,5 +1,5 @@
 interface IProps {
-    description: string;
+    description?: string;
     link: string;
     name: string;
     firstLinkName: string;
