@@ -69,7 +69,7 @@ i18n
             libraryApp: "Jednoduchá knižničná aplikácia",
             snakeGame: "Webová hra had",
             nodeT: "Jednoduchá template pre prácu z nodejs a typescript",
-            foodApp: "Applikácia kde na objednávanie jedál online",
+            foodApp: "Applikácia na objednávanie jedál online",
             foodAppAPI: "Api ku applikácií na objednávanie jedál online",
             disneyClone: "Klon stránky Disney+",
             foo: "Online shop na nákup jedla",

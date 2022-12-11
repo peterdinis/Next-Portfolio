@@ -32,8 +32,8 @@ const MyProjects = () => {
 
         <Project
           name={t("description.foodApp")}
-          subName="Node Typescript Mongodb Ejs"
-          link="https://github.com/peterdinis/Node-Pizza-Website"
+          subName="React Chakra UI Typescript"
+          link="https://github.com/peterdinis/React-Pizza-App"
           firstLinkName="Github"
         />
 
