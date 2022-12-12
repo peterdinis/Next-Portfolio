@@ -32,8 +32,8 @@ const MyProjects = () => {
 
         <Project
           name={t("description.foodApp")}
-          subName="React Chakra UI Typescript"
-          link="https://github.com/peterdinis/React-Pizza-App"
+          subName="Nextjs Typescript Tailwind Trcp"
+          link="https://github.com/peterdinis/Next-Food-App"
           firstLinkName="Github"
         />
 
