@@ -8,9 +8,7 @@ import queryLogo from "../../images/query.svg";
 import javascriptLogo from "../../images/javascript.png";
 import nestjsLogo from "../../images/nestjs.svg";
 import pgLogo from "../../images/pg.png";
-import djangoLogo from "../../images/django-logo.png";
 import firebase from "../../images/firebase.png";
-import pythonLogo from "../../images/python.jpg";
 import htmlLogo from "../../images/html.png";
 import cssLogo from "../../images/css.png";
 import nativeLogo from "../../images/native.png";
@@ -73,17 +71,10 @@ function KnowledgeWrapper() {
         <KnowledgeCard image={javascriptLogo} name="Javascript" />
         <KnowledgeCard image={nestjsLogo} name="Nestjs" />
         <KnowledgeCard image={pgLogo} name="Postgresql" />
-        <KnowledgeCard image={djangoLogo} name="Python Django" />
         <KnowledgeCard image={firebase} name="Firebase" />
-
-        <KnowledgeCard image={pythonLogo} name="Python" />
-
         <KnowledgeCard image={htmlLogo} name="Html" />
-
         <KnowledgeCard image={cssLogo} name="Css" />
-
         <KnowledgeCard image={nativeLogo} name="React-Native" />
-
         <KnowledgeCard image={jestLogo} name="Jest" />
       </div>
     </>
