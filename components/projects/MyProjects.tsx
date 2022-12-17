@@ -29,14 +29,6 @@ const MyProjects = () => {
           link="https://github.com/peterdinis/Devstagram"
           firstLinkName="Github"
         />
-
-        <Project
-          name={t("description.foodApp")}
-          subName="Nextjs Typescript Tailwind"
-          link="https://github.com/peterdinis/Next-Food-App-Client"
-          firstLinkName="Github"
-        />
-
         <Project
           name={t("description.foodAppAPI")}
           subName="ASP.NET Postgresql"
