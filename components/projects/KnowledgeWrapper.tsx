@@ -15,6 +15,7 @@ import nativeLogo from "../../images/native.png";
 import jestLogo from "../../images/jest.png";
 import styles from "../../styles/Component.module.css";
 import {style} from "./styles";
+import netLogo from "../../images/net.png";
 
 function KnowledgeWrapper() {
   const [open, setOpen] = React.useState(false);
@@ -76,6 +77,7 @@ function KnowledgeWrapper() {
         <KnowledgeCard image={cssLogo} name="Css" />
         <KnowledgeCard image={nativeLogo} name="React-Native" />
         <KnowledgeCard image={jestLogo} name="Jest" />
+        <KnowledgeCard image={netLogo} name="ASP.NET" />
       </div>
     </>
   );
