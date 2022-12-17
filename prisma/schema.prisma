@@ -10,10 +10,17 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Post {
+model Project {
   id          String @id @default(cuid())
   name        String
   description String
   image       String
   githubLink  String
+}
+
+model Image {
+  id          String @id @default(cuid())
+  name        String
+  image       String
+  description String
 }
