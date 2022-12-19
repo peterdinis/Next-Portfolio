@@ -17,20 +17,6 @@ const MyProjects = () => {
         />
 
         <Project
-          name={t("description.insta")}
-          subName="React Typescript React query"
-          link="https://github.com/peterdinis/Devstagram"
-          firstLinkName="Github"
-        />
-
-        <Project
-          name={t("description.instaBE")}
-          subName="Node Typescript Mongodb Jest"
-          link="https://github.com/peterdinis/Devstagram"
-          firstLinkName="Github"
-        />
-
-        <Project
           name={t("description.projectOne")}
           subName="Nx React Nestjs Prisma"
           link="https://github.com/peterdinis/Spst-Kniznica"
