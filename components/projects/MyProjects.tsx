@@ -29,12 +29,6 @@ const MyProjects = () => {
           link="https://github.com/peterdinis/Devstagram"
           firstLinkName="Github"
         />
-        <Project
-          name={t("description.foodAppAPI")}
-          subName="ASP.NET Postgresql"
-          link="https://github.com/peterdinis/Food-Backend-API"
-          firstLinkName="Github"
-        />
 
         <Project
           name={t("description.projectOne")}
