@@ -29,6 +29,20 @@ const MyProjects = () => {
           link="https://github.com/peterdinis/Portfolio-Dinis"
           firstLinkName="Github"
         />
+
+        <Project 
+          name={t("description.insta")}
+          subName="React Nestjs Typescript Nx"
+          link="https://github.com/peterdinis/DevStagram-NX"
+          firstLinkName="Github"      
+        />
+
+        <Project 
+          name={t("description.tiktok")}
+          subName="NextJs Typescript Trpc"
+          link="https://github.com/peterdinis/NextJS-TikTok"
+          firstLinkName="Github"
+        />
       </div>
     </div>
   );
