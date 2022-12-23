@@ -8,7 +8,7 @@ import FallbackLoader from "../components/shared/FallbackLoader";
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <Layout>
-        <Suspense fallback={<FallbackLoader />}>
+        <Suspense fallback={<FallbackLoader />}> {/* TODO: Fix this probably error with suspense */}
           <Component {...pageProps} />
         </Suspense>
     </Layout>
