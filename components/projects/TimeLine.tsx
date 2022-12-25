@@ -6,7 +6,7 @@ function TimeLine() {
 
   return (
     <>
-      <h1 className="text-center text-red-900 text-4xl mt-4">
+      <h1 className="text-center text-4xl mt-4">
         {t("description.work")}
       </h1>
       <div className="container mx-auto w-full h-full">
