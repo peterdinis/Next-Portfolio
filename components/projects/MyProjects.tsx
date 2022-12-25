@@ -31,17 +31,17 @@ const MyProjects = () => {
         />
 
         <Project 
-          name={t("description.insta")}
-          subName="NextJs Typescript Chakra UI Supabase"
-          link="https://github.com/peterdinis/Next-Social-Site"
-          firstLinkName="Github"      
+          name={t("description.reddit")}
+          subName="Nextjs Typescript Firebase Chakra UI"
+          link="https://github.com/peterdinis/Reddit-NextJs"
+          firstLinkName="Github"
         />
 
         <Project 
-          name={t("description.tiktok")}
-          subName="NextJs Typescript Trpc"
-          link="https://github.com/peterdinis/NextJS-TikTok"
-          firstLinkName="Github"
+          name={t("description.insta")}
+          subName="NextJs Typescript Chakra UI Firebase"
+          link="https://github.com/peterdinis/Next-Social-Site"
+          firstLinkName="Github"      
         />
       </div>
     </div>
