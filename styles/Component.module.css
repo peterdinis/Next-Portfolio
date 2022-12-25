@@ -4,7 +4,7 @@
 }
 
 .info {
-  margin-top: 6rem !important;
+  margin-top: 6rem;
 }
 
 .infolink {
@@ -67,25 +67,25 @@
 
 @media (max-width: 1039px) {
   .info {
-    margin-top: 8rem !important;
+    margin-top: 8rem;
   }
 }
 
 @media (max-width: 1031px) {
   .info {
-    margin-top: 7rem !important;
+    margin-top: 7rem;
   }
 }
 
 @media (max-width: 1015px) {
   .info {
-    margin-top: 7rem !important;
+    margin-top: 7rem;
   }
 }
 
 @media (max-width: 245px) {
   .info {
-    margin-top: 8rem !important;
+    margin-top: 8rem;
   }
 }
 

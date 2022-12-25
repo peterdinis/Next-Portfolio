@@ -6,6 +6,9 @@ function TimeLine() {
 
   return (
     <>
+      <h1 className="text-center text-red-900 text-4xl mt-4">
+        {t("description.work")}
+      </h1>
       <div className="container mx-auto w-full h-full">
         <div className="relative wrap overflow-hidden p-10 h-full">
           <div
@@ -37,7 +40,7 @@ function TimeLine() {
             <div className="order-1 bg-red-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
               <h3 className="mb-3 font-bold text-white text-lg">Think Easy</h3>
               <p className="text-lg font-medium leading-snug tracking-wide text-white text-opacity-100">
-              {t("description.workThree")}
+                {t("description.workThree")}
               </p>
             </div>
           </div>
