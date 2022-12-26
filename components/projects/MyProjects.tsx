@@ -5,7 +5,7 @@ const MyProjects = () => {
   const { t } = useTranslation();
   return (
     <div className="mt-1">
-      <h1 className="text-red-900 text-center mt-4 text-4xl">
+      <h1 className="text-center mt-4 text-4xl">
         {t("description.myProjects")}
       </h1>
       <div className="mt-6 px-10 grid grid-cols-4 gap-4">
