@@ -5,7 +5,7 @@ function Footer() {
         <nav className="flex flex-wrap justify-center -mx-5 -my-2">
           <div className="px-5 py-2">
             <span className="text-3xl leading-6 text-gray-800 hover:text-gray-900">
-              &copy;Peter Dinis 2022
+              &copy;Peter Dinis 2023
             </span>
           </div>
         </nav>
