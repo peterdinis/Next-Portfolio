@@ -30,18 +30,39 @@ const MyProjects = () => {
           firstLinkName="Github"
         />
 
-        <Project 
+        <Project
           name={t("description.reddit")}
           subName="Nextjs Typescript Firebase Chakra UI"
           link="https://github.com/peterdinis/Reddit-NextJs"
           firstLinkName="Github"
         />
 
-        <Project 
+        <Project
           name={t("description.insta")}
           subName="NextJs Typescript Graphql Tailwind"
           link="https://github.com/peterdinis/Next-Social-Site"
-          firstLinkName="Github"      
+          firstLinkName="Github"
+        />
+
+        <Project
+          name={t("description.instaBE")}
+          subName="Nestjs Prisma Graphql"
+          link="https://github.com/peterdinis/Nestjs-Graphql-SocialSite-API"
+          firstLinkName="Github"
+        />
+
+        <Project
+          name={t("description.foodApp")}
+          subName="Nextjs React-Query Material UI"
+          link="https://github.com/peterdinis/Next-Shop-Frontend"
+          firstLinkName="Github"
+        />
+
+        <Project
+          name={t("description.foodAppAPI")}
+          subName="Asp.NET Postgresql C#"
+          link="https://github.com/peterdinis/C-Sharp-Shop-API"
+          firstLinkName="Github"
         />
       </div>
     </div>
