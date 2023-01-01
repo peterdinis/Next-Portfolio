@@ -39,7 +39,7 @@ const MyProjects = () => {
 
         <Project 
           name={t("description.insta")}
-          subName="NextJs Typescript Chakra UI Firebase"
+          subName="NextJs Typescript Graphql Tailwind"
           link="https://github.com/peterdinis/Next-Social-Site"
           firstLinkName="Github"      
         />

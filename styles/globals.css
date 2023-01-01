@@ -34,4 +34,10 @@ html::-webkit-scrollbar-track {
         @apply text-body-lg;
       }
     }
+
+    @screen sm {
+        body {
+            @apply text-body-sm;
+        }
+    }
   }

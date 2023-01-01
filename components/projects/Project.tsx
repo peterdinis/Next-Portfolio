@@ -1,6 +1,7 @@
 interface IProps {
     link: string;
     name: string;
+    description?: string;
     firstLinkName: string;
     subName:  string
     deployLink?: string;
