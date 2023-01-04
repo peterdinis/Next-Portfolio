@@ -58,16 +58,16 @@ export default function Navbar() {
               }`}
             >
               <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                <li className="text-white text-2xl">
+                <li className="text-white text-xl">
                   <Link href="https://www.facebook.com/peto.dinis/">Facebook</Link>
                 </li>
-                <li className="text-white text-2xl">
+                <li className="text-white text-xl">
                   <Link href="https://github.com/peterdinis?tab=repositories">Github</Link>
                 </li>
-                <li className="text-white text-2xl">
+                <li className="text-white text-xl">
                   <Link href="https://www.instagram.com/peterdinis1/">Instagram</Link>
                 </li>
-                <li className="text-white text-2xl">
+                <li className="text-white text-xl">
                   <Link href="https://www.linkedin.com/in/peter-dinis-58520b214/">LinkedIn</Link>
                 </li>
               </ul>

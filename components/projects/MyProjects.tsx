@@ -38,16 +38,9 @@ const MyProjects = () => {
         />
 
         <Project
-          name={t("description.insta")}
-          subName="NextJs Typescript Graphql Tailwind"
-          link="https://github.com/peterdinis/Next-Social-Site"
-          firstLinkName="Github"
-        />
-
-        <Project
           name={t("description.instaBE")}
-          subName="Nestjs Prisma Graphql"
-          link="https://github.com/peterdinis/Nestjs-Graphql-SocialSite-API"
+          subName="Node Typescript MongoDB React Typescript Redux Toolkit"
+          link="https://github.com/peterdinis/Mern-Social-Site"
           firstLinkName="Github"
         />
 
