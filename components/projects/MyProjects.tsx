@@ -57,6 +57,13 @@ const MyProjects = () => {
           link="https://github.com/peterdinis/C-Sharp-Shop-API"
           firstLinkName="Github"
         />
+
+        <Project
+          name={t("description.gmailClone")}
+          subName="React Redux Firebase Styled-Components"
+          link="https://github.com/peterdinis/React-Gmail-Clone"
+          firstLinkName="Github"
+        />
       </div>
     </div>
   );

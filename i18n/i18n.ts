@@ -19,6 +19,7 @@ i18n
           description: {
             ecommerceSimple: "Online shop for selling foods",
             foo: "Online food shop",
+            gmailClone: "Clone of gmail website",
             oldProject: "My old portfolio",
             eshopAPI: "API for online shop",
             socialGraphql: "Simple Social site instagram clone",
@@ -67,6 +68,7 @@ i18n
           description: {
             ecommerceSimple: "Online shop na objednávanie jedla",
             snakeDesc: "Online webová hra had",
+            gmailClone: "Klon stránky gmail",
             libraryApp: "Jednoduchá knižničná aplikácia",
             snakeGame: "Webová hra had",
             nodeT: "Jednoduchá template pre prácu z nodejs a typescript",
