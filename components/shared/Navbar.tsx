@@ -10,9 +10,9 @@ export default function Navbar() {
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
-              <a href="/">
+              <Link href="/">
                 <h2 className="text-2xl text-white font-bold">Peter Dinis</h2>
-              </a>
+              </Link>
               <div className="md:hidden">
                 <button
                   className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
@@ -58,16 +58,16 @@ export default function Navbar() {
               }`}
             >
               <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                <li className="text-white">
+                <li className="text-white text-xl">
                   <Link href="https://www.facebook.com/peto.dinis/">Facebook</Link>
                 </li>
-                <li className="text-white">
+                <li className="text-white text-xl">
                   <Link href="https://github.com/peterdinis?tab=repositories">Github</Link>
                 </li>
-                <li className="text-white">
+                <li className="text-white text-xl">
                   <Link href="https://www.instagram.com/peterdinis1/">Instagram</Link>
                 </li>
-                <li className="text-white">
+                <li className="text-white text-xl">
                   <Link href="https://www.linkedin.com/in/peter-dinis-58520b214/">LinkedIn</Link>
                 </li>
               </ul>

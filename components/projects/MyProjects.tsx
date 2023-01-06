@@ -5,48 +5,63 @@ const MyProjects = () => {
   const { t } = useTranslation();
   return (
     <div className="mt-1">
-      <h1 className="text-red-900 text-center mt-4 text-4xl">
+      <h1 className="text-center mt-4 text-4xl">
         {t("description.myProjects")}
       </h1>
       <div className="mt-6 px-10 grid grid-cols-4 gap-4">
-
         <Project
           name="Node Typescript Template"
-          description={t("description.nodeT")}
           subName="Node js Typescript Ejs"
           link="https://github.com/peterdinis/Node-Typescript-Starter"
           firstLinkName="Github"
         />
 
         <Project
-          name={t("description.insta")}
-          description={t("description.insta")}
-          subName="React Typescript React query"
-          link="https://github.com/peterdinis/Devstagram"
+          name={t("description.projectOne")}
+          subName="Nx React Nestjs Prisma"
+          link="https://github.com/peterdinis/Spst-Kniznica"
+          firstLinkName="Github"
+        />
+
+        <Project
+          name={t("description.oldProject")}
+          subName="React Javascript Tailwind"
+          link="https://github.com/peterdinis/Portfolio-Dinis"
+          firstLinkName="Github"
+        />
+
+        <Project
+          name={t("description.reddit")}
+          subName="Nextjs Typescript Firebase Chakra UI"
+          link="https://github.com/peterdinis/Reddit-NextJs"
           firstLinkName="Github"
         />
 
         <Project
           name={t("description.instaBE")}
-          description={t("description.instaBE")}
-          subName="Node Typescript Mongodb Jest"
-          link="https://github.com/peterdinis/Devstagram"
+          subName="Node Typescript MongoDB React Typescript Redux Toolkit"
+          link="https://github.com/peterdinis/Mern-Social-Site"
           firstLinkName="Github"
         />
 
-        <Project 
+        <Project
           name={t("description.foodApp")}
-          description={t("description.foodApp")}
-          subName="Node Typescript Mongodb Ejs"
-          link="https://github.com/peterdinis/Node-Pizza-Website"
+          subName="Nextjs React-Query Material UI"
+          link="https://github.com/peterdinis/Next-Shop-Frontend"
           firstLinkName="Github"
         />
 
-        <Project 
-          name={t("description.projectOne")}
-          description={t("description.projectOneD")}
-          subName="Nx React Nestjs Prisma"
-          link="https://github.com/peterdinis/Spst-Kniznica"
+        <Project
+          name={t("description.foodAppAPI")}
+          subName="Asp.NET Postgresql C#"
+          link="https://github.com/peterdinis/C-Sharp-Shop-API"
+          firstLinkName="Github"
+        />
+
+        <Project
+          name={t("description.gmailClone")}
+          subName="React Redux Firebase Styled-Components"
+          link="https://github.com/peterdinis/React-Gmail-Clone"
           firstLinkName="Github"
         />
       </div>
