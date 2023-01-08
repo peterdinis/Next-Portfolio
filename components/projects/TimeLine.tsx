@@ -28,7 +28,7 @@ function TimeLine() {
                 {t("description.workOne")}
               </p>
             </div>
-          </div>
+          </div> 
 
           <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
             <div className="order-1 w-5/12" />

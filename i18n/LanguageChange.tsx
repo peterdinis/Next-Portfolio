@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { ILanguage } from "../types/language";
+import { ILanguage } from "../interfaces/Language";
 
 const languages = {
   en: { nativeName: "English" },
