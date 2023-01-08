@@ -11,7 +11,6 @@ import pgLogo from "../../images/pg.png";
 import firebase from "../../images/firebase.png";
 import htmlLogo from "../../images/html.png";
 import cssLogo from "../../images/css.png";
-import nativeLogo from "../../images/native.png";
 import jestLogo from "../../images/jest.png";
 import styles from "../../styles/Component.module.css";
 import {style} from "./styles";
