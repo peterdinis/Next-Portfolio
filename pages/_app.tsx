@@ -7,10 +7,10 @@ import FallbackLoader from "../components/shared/FallbackLoader";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
+    <Suspense fallback={<FallbackLoader />}>
     <Layout>
-      <Suspense fallback={<FallbackLoader />}>
-        <Component {...pageProps} />
-      </Suspense>
+      <Component {...pageProps} />
     </Layout>
+    </Suspense>
   );
 }
