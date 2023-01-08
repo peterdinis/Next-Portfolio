@@ -45,22 +45,8 @@ const MyProjects = () => {
         />
 
         <Project
-          name={t("description.foodApp")}
-          subName="Nextjs React-Query Material UI"
-          link="https://github.com/peterdinis/Next-Shop-Frontend"
-          firstLinkName="Github"
-        />
-
-        <Project
-          name={t("description.foodAppAPI")}
-          subName="Asp.NET Postgresql C#"
-          link="https://github.com/peterdinis/C-Sharp-Shop-API"
-          firstLinkName="Github"
-        />
-
-        <Project
           name={t("description.gmailClone")}
-          subName="React Redux Firebase Styled-Components"
+          subName="React Redux Firebase Sass"
           link="https://github.com/peterdinis/React-Gmail-Clone"
           firstLinkName="Github"
         />

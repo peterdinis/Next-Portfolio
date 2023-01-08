@@ -14,7 +14,6 @@ function LanguageChange() {
     <>
       {Object.keys(languages).map((lng) => (
         <button
-          /* TODO: Update this logic because style throw error */
           className="bg-red-500 hover:bg-red-700 rounded-3xl border-r-8 text-white text-3xl ml-2 font-bold py-2 px-4"
           key={lng}
           style={{
