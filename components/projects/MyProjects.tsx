@@ -28,26 +28,41 @@ const MyProjects = () => {
           subName="React Javascript Tailwind"
           link="https://github.com/peterdinis/Portfolio-Dinis"
           firstLinkName="Github"
-        />
+        >
+          <button className="border border-red-500 bg-red-500 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-red-600 focus:outline-none focus:shadow-outline">
+            <a
+              className="text-2xl"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="portfolio-dinis.vercel.app"
+            >
+              Website
+            </a>
+          </button>
+        </Project>
 
         <Project
           name={t("description.reddit")}
           subName="Nextjs Typescript Firebase Chakra UI"
           link="https://github.com/peterdinis/Reddit-NextJs"
           firstLinkName="Github"
-        />
+        >
+          <button className="border border-red-500 bg-red-500 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-red-600 focus:outline-none focus:shadow-outline">
+            <a
+              className="text-2xl"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/peterdinis/Reddit-NextJs"
+            >
+              Website
+            </a>
+          </button>
+        </Project>
 
         <Project
           name={t("description.instaBE")}
           subName="Node Typescript MongoDB React Typescript Redux Toolkit"
           link="https://github.com/peterdinis/Mern-Social-Site"
-          firstLinkName="Github"
-        />
-
-        <Project
-          name={t("description.gmailClone")}
-          subName="React Redux Firebase Sass"
-          link="https://github.com/peterdinis/React-Gmail-Clone"
           firstLinkName="Github"
         />
       </div>
