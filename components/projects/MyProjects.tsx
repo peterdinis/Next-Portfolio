@@ -50,7 +50,7 @@ const MyProjects = () => {
         </Project>
 
         <Project
-          name={t("description.instaBE")}
+          name={t("description.insta")}
           subName="Node Typescript MongoDB React Typescript Redux Toolkit"
           link="https://github.com/peterdinis/Mern-Social-Site"
           firstLinkName="Github"
