@@ -21,3 +21,5 @@ describe("Testing links in navbar", () => {
         
     })
 })
+
+export {}
