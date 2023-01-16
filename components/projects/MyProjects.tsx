@@ -30,12 +30,7 @@ const MyProjects = () => {
           firstLinkName="Github"
         >
           <button className="border border-red-500 bg-red-500 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-red-600 focus:outline-none focus:shadow-outline">
-            <a
-              className="text-2xl"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="portfolio-dinis.vercel.app"
-            >
+            <a className="text-2xl" href="https://portfolio-dinis.vercel.app/">
               Website
             </a>
           </button>
@@ -48,12 +43,7 @@ const MyProjects = () => {
           firstLinkName="Github"
         >
           <button className="border border-red-500 bg-red-500 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-red-600 focus:outline-none focus:shadow-outline">
-            <a
-              className="text-2xl"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/peterdinis/Reddit-NextJs"
-            >
+            <a className="text-2xl" href="https://reddit-next-js.vercel.app/">
               Website
             </a>
           </button>
