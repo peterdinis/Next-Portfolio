@@ -8,7 +8,9 @@ function TimeLine() {
     <>
       <h1 className="text-center text-4xl mt-4">{t("description.work")}</h1>
       <div className="flex justify-center align-top mt-8">
-      {/* TODO: Fixing this later */}
+      {/* TODO: Fixing this later<button className="flex justify-center align-top">
+        Download my CV
+      </button> */}
       {/*   <button>
           <a href="../files/resume.pdf" download>
             Download my CV

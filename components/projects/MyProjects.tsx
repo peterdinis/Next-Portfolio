@@ -51,8 +51,14 @@ const MyProjects = () => {
 
         <Project
           name={t("description.insta")}
-          subName="Node Typescript MongoDB React Typescript Redux Toolkit"
-          link="https://github.com/peterdinis/Mern-Social-Site"
+          subName="React Typescript Material UI"
+          link="https://github.com/peterdinis/Instagram-Clone-UI"
+          firstLinkName="Github"
+        />
+        <Project
+          name={t("description.instaBE")}
+          subName="Asp.NET Postgresql"
+          link="https://github.com/peterdinis/Instagram-Clone-API"
           firstLinkName="Github"
         />
       </div>
