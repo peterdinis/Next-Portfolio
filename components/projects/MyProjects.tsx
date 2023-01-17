@@ -61,6 +61,13 @@ const MyProjects = () => {
           link="https://github.com/peterdinis/Instagram-Clone-API"
           firstLinkName="Github"
         />
+
+        <Project
+          name={t("description.spotify")}
+          subName="Nextjs Tailwind Firebase"
+          link="https://github.com/peterdinis/Spotify-Next"
+          firstLinkName="Github"
+        />
       </div>
     </div>
   );

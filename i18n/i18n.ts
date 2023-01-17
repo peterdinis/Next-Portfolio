@@ -59,6 +59,7 @@ i18n
             foodClient: "Application for ordering food",
             foodApp: "Application for ordering food online",
             foodAppAPI: "Api to online food ordering apps",
+            spotify: "Spotify website clone",
             sevenDesc:
               "A simple control panel administrator can add customer books and issues and see questions from page users",
             uuappText:
@@ -73,6 +74,7 @@ i18n
             ecommerceSimple: "Online shop na objednávanie jedla",
             snakeDesc: "Online webová hra had",
             gmailClone: "Klon stránky gmail",
+            spotify: "Klon stránky spotify",
             libraryApp: "Jednoduchá knižničná aplikácia",
             snakeGame: "Webová hra had",
             nodeT: "Jednoduchá template pre prácu z nodejs a typescript",
