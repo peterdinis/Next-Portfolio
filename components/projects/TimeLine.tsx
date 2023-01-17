@@ -7,6 +7,14 @@ function TimeLine() {
   return (
     <>
       <h1 className="text-center text-4xl mt-4">{t("description.work")}</h1>
+      <div className="flex justify-center align-top mt-8">
+      {/* TODO: Fixing this later */}
+      {/*   <button>
+          <a href="../files/resume.pdf" download>
+            Download my CV
+          </a>
+        </button> */}
+      </div>
       <div className="container mx-auto w-full h-full">
         <div className="relative wrap overflow-hidden p-10 h-full">
           <div
@@ -28,7 +36,7 @@ function TimeLine() {
                 {t("description.workOne")}
               </p>
             </div>
-          </div> 
+          </div>
 
           <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
             <div className="order-1 w-5/12" />
