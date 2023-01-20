@@ -27,7 +27,7 @@ function TimeLine() {
               <p className="text-lg leading-snug tracking-wide text-gray-900 text-opacity-100">
                 {t("description.workOne")}
               </p>
-              <p className="text-lg leading-snug tracking-wide text-gray-900 text-opacity-100">
+              <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
                 {t("description.descriptionOne")}
               </p>
             </div>
@@ -36,14 +36,14 @@ function TimeLine() {
           <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
             <div className="order-1 w-5/12" />
             <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-              <h1 className="mx-auto text-white font-semibold text-lg">2</h1>
+              <h1 className="mx-auto text-white font-semibold text-sm">2</h1>
             </div>
             <div className="order-1 bg-red-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
               <h3 className="mb-3 font-bold text-white text-lg">Think Easy</h3>
               <p className="text-lg font-medium leading-snug tracking-wide text-white text-opacity-100">
                 {t("description.workThree")}
               </p>
-              <p className="text-lg font-medium leading-snug tracking-wide text-white text-opacity-100">
+              <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
                 {t("description.descriptionTwo")}
               </p>
             </div>
@@ -61,7 +61,7 @@ function TimeLine() {
               <p className="text-lg leading-snug tracking-wide text-gray-900 text-opacity-100">
                 {t("description.workFour")}. Jest Typescript Nestjs Postgresql
               </p>
-              <p className="text-lg leading-snug tracking-wide text-gray-900 text-opacity-100">
+              <p className="text-xs md:text-base sm:text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
                 {t("description.descriptionThree")}. Jest Typescript Nestjs Postgresql
               </p>
             </div>
