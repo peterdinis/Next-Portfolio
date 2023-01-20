@@ -7,16 +7,6 @@ function TimeLine() {
   return (
     <>
       <h1 className="text-center text-4xl mt-4">{t("description.work")}</h1>
-      <div className="flex justify-center align-top mt-8">
-      {/* TODO: Fixing this later<button className="flex justify-center align-top">
-        Download my CV
-      </button> */}
-      {/*   <button>
-          <a href="../files/resume.pdf" download>
-            Download my CV
-          </a>
-        </button> */}
-      </div>
       <div className="container mx-auto w-full h-full">
         <div className="relative wrap overflow-hidden p-10 h-full">
           <div
@@ -37,6 +27,9 @@ function TimeLine() {
               <p className="text-lg leading-snug tracking-wide text-gray-900 text-opacity-100">
                 {t("description.workOne")}
               </p>
+              <p className="text-lg leading-snug tracking-wide text-gray-900 text-opacity-100">
+                {t("description.descriptionOne")}
+              </p>
             </div>
           </div>
 
@@ -49,6 +42,9 @@ function TimeLine() {
               <h3 className="mb-3 font-bold text-white text-lg">Think Easy</h3>
               <p className="text-lg font-medium leading-snug tracking-wide text-white text-opacity-100">
                 {t("description.workThree")}
+              </p>
+              <p className="text-lg font-medium leading-snug tracking-wide text-white text-opacity-100">
+                {t("description.descriptionTwo")}
               </p>
             </div>
           </div>
@@ -64,6 +60,9 @@ function TimeLine() {
               </h3>
               <p className="text-lg leading-snug tracking-wide text-gray-900 text-opacity-100">
                 {t("description.workFour")}. Jest Typescript Nestjs Postgresql
+              </p>
+              <p className="text-lg leading-snug tracking-wide text-gray-900 text-opacity-100">
+                {t("description.descriptionThree")}. Jest Typescript Nestjs Postgresql
               </p>
             </div>
           </div>

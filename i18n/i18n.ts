@@ -44,6 +44,9 @@ i18n
             snakeDesc: "Online web game snake",
             workOne:
               "(1-year) School library project Unicorn React-Node-MongoDB - (uuapp)",
+            descriptionOne: "Thanks to the Erasmus program, I had the opportunity to join Think Easy as a React developer. I was part of a 10‑member team. I used these technologies React Javascript Styled‑Components, Redux. I worked on applications for the company Carter s.r.o. (the company deals with printing). The application worked in such a way that the person who wanted to print something clicked on the link where the form was displayed, uploaded the necessary documents and through the backend and zoho hooks this information reached the Carter company employee.",
+            descriptionTwo: "I worked at Think Easy as a university student. The following technologies were used: React Typescript Redux (later React‑Query). I was part of a 10‑member team. I worked on an application for a nursing home (the application is called Legato). In this application, it worked so that the clients of the given home have bracelets on their wrists and the employees know where the given client is.",
+            descriptionThree: "The company where I worked creates an e‑shop where licenses for various software products can be sold. There are different roles in the eshop (seller, buyer, supplier, distributor). In the beginning, in order to be able to buy something on the eshop called superlicensor, I had to buy a superlicensor paid license. I was a member of the 7 team that worked on that application). Technologies used Vuejs Nestjs Typescript Docker Postgresql Jest.",
             workTwo: "(3-weeks) Erasmus Company Think Easy React.js",
             workFour: "(11-Months) Navisys s.r.o",
             workThree: "(3-Months) Company Think Easy React.js Typescript",
@@ -107,6 +110,9 @@ i18n
             work: "Moje pracovné skúsenosti",
             workOne:
               "(1-rok) Školská knižnica projekt Unicorn React-Node-MongoDB - (uuapp)",
+            descriptionOne: "Školská súťaž ktorú organizovala firma Unicorn ktorá má pobočku v Prešove. Zapojila sa do nej aj moja stredná škola ktorú som navštevoval. Fungovalo to na princípe toho, že škola si vybrala tému a pridelený pracovník z firmy unicorn zo žiakmi danú applikáciu vytváral.Frontend sa robil v Reacte, backend Node.js a MongoDB(databáza)(Firma Unicorn má používa upravenú verziu reactu a node a mongo). Výsledok takmer ročnej práce bol taký, že sa vytvorila školská knižnica, kde žiak si vie požičať knihu vrátiť ju. Učiteľ vie robiť CRUD operácie pre knihy a kategórie a admin(správca) vie dať permisie učiteľom(spravovať knižnicu). Applikáciu som vytvoril sám",
+            descriptionTwo: "V tejto firme som bol počas VŠ. Technológie React Typescript Redux(neskôr React-Query). Pracoval som na applikácií pre Domov Dôchodcov(applikácia na volala Legato). Applikácia ktorá pravdepobodne je vo vývoji stále, fungovala tak že klienti mali na ruke náramky a v tej applikácií zamestanec mohol vidieť či klient je na izbe, alebo je u rodiny, alebo je u lekára). Bol som v malom 10-členom týme, ktorí vytváral tú applikáciu",
+            descriptionThree: "Firma vytvárala eshop na ktorom sa dajú predávať licencie na softverové produkty. Vedel som byť predajca alebo výrobca. V applikácií som si vedel vytvárať rôzne vzťahy(predajca - výrobca). Techonológie ktoré boli použité: Nx(Monorepo) Vuejs, Nestjs, Docker, Postgresql, Jest. Bol som v malom 7-členom týme ktorý vytváral tú applikáciu.",
             workTwo: "(3-týždne) Erazmus Firma Think Easy React.js",
             workThree: "(3-Mesiace) Firma Think Easy React.js Typescript",
             knowledge: "Moje znalosti",
