@@ -7,7 +7,7 @@ function TimeLine() {
   return (
     <>
       <div className="w-10/12 md:w-7/12 lg:6/12 mx-auto relative py-20">
-        <h1 className="text-3xl text-center font-bold text-black">
+        <h1 className="text-center mt-4 text-4xl">
           {t("description.work")}
         </h1>
         <div className="border-l-2 mt-10">
