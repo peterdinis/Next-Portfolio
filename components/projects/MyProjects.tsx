@@ -11,7 +11,7 @@ const MyProjects = () => {
       <div className="mt-6 px-10 grid grid-cols-4 gap-4">
         <Project
           name={t("description.projectOne")}
-          subName="Nx React Nestjs Prisma"
+          subName="C# Asp.NET Mvc"
           link="https://github.com/peterdinis/Spst-Kniznica"
           firstLinkName="Github"
         />
@@ -43,15 +43,9 @@ const MyProjects = () => {
         </Project>
 
         <Project
-          name={t("description.insta")}
-          subName="React Typescript Material UI"
-          link="https://github.com/peterdinis/Instagram-Clone-UI"
-          firstLinkName="Github"
-        />
-        <Project
-          name={t("description.instaBE")}
-          subName="Asp.NET Postgresql"
-          link="https://github.com/peterdinis/Instagram-Clone-API"
+          name={t("description.netflix")}
+          subName="React Styled-Components Firebase"
+          link="https://github.com/peterdinis/React-Netflix"
           firstLinkName="Github"
         />
 
