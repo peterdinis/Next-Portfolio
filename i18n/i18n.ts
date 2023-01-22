@@ -15,7 +15,7 @@ i18n
       en: {
         translation: {
           description: {
-            ecommerceSimple: "Online shop for selling foods",
+            ecommerceSimple: "Online shop for selling clothes",
             foo: "Online food shop",
             gmailClone: "Clone of gmail website",
             oldProject: "My old portfolio",
@@ -74,7 +74,7 @@ i18n
       sk: {
         translation: {
           description: {
-            ecommerceSimple: "Online shop na objednávanie jedla",
+            ecommerceSimple: "Online shop na predaj oblečenia",
             snakeDesc: "Online webová hra had",
             gmailClone: "Klon stránky gmail",
             spotify: "Klon stránky spotify",
