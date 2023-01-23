@@ -62,13 +62,6 @@ const MyProjects = () => {
           link="https://github.com/peterdinis/React-Eshop"
           firstLinkName="Github"
         />
-
-        <Project
-          name={t("description.eshopAPI")}
-          subName="Nestjs Prisma"
-          link="https://github.com/peterdinis/Nest-Eshop-API"
-          firstLinkName="Github"
-        />
       </div>
     </div>
   );

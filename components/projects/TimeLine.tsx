@@ -15,7 +15,7 @@ function TimeLine() {
             <div className="w-5 h-5 bg-red-600 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"></div>
             <div className="w-10 h-1 bg-red-300 absolute -left-10 z-0"></div>
             <div className="flex-auto">
-              <h1 className="text-lg">SPŠT Bardejov</h1>
+              <h1 className="text-lg font-bold">SPŠT Bardejov</h1>
               <p className="font-bold">{t("description.workOne")}</p>
             </div>
             <p className="text-center text-white">
@@ -27,7 +27,7 @@ function TimeLine() {
             <div className="w-5 h-5 bg-green-600 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"></div>
             <div className="w-10 h-1 bg-green-300 absolute -left-10 z-0"></div>
             <div className="flex-auto">
-              <h1 className="text-lg">Think Easy</h1>
+              <h1 className="text-lg font-bold">Think Easy</h1>
               <p className="font-bold">{t("description.workThree")}</p>
             </div>
             <p className="text-center text-white">
@@ -40,7 +40,7 @@ function TimeLine() {
             <div className="w-10 h-1 bg-red-300 absolute -left-10 z-0"></div>
 
             <div className="flex-auto">
-              <h1 className="text-lg">Navisys s.r.o.</h1>
+              <h1 className="text-lg font-bold">Navisys s.r.o.</h1>
               <p className="font-bold">{t("description.workFour")}</p>
             </div>
             <p className="text-center text-white">
