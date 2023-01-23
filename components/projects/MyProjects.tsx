@@ -57,8 +57,8 @@ const MyProjects = () => {
         />
 
         <Project
-          name={t("description.ecommerceSimple")}
-          subName="React Typescript Tailwind Redux"
+          name={t("description.foo")}
+          subName="React Typescript Tailwind"
           link="https://github.com/peterdinis/React-Eshop"
           firstLinkName="Github"
         />
