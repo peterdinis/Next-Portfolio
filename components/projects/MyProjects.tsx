@@ -43,13 +43,6 @@ const MyProjects = () => {
         </Project>
 
         <Project
-          name={t("description.netflix")}
-          subName="React Styled-Components Firebase"
-          link="https://github.com/peterdinis/React-Netflix"
-          firstLinkName="Github"
-        />
-
-        <Project
           name={t("description.spotify")}
           subName="Nextjs Tailwind Firebase"
           link="https://github.com/peterdinis/Spotify-Next"
@@ -61,7 +54,13 @@ const MyProjects = () => {
           subName="React Typescript Tailwind"
           link="https://github.com/peterdinis/React-Eshop"
           firstLinkName="Github"
-        />
+        >
+           <button className="border border-red-500 bg-red-500 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-red-600 focus:outline-none focus:shadow-outline">
+            <a className="text-2xl" href="https://food-shop-react.vercel.app/">
+              Website
+            </a>
+          </button>
+        </Project>
       </div>
     </div>
   );
