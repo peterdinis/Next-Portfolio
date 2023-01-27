@@ -56,11 +56,27 @@ const MyProjects = () => {
           firstLinkName="Github"
         >
           {/* Later uncomment this  */}
-        {/*    <button className="border border-red-500 bg-red-500 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-red-600 focus:outline-none focus:shadow-outline">
+          {/*    <button className="border border-red-500 bg-red-500 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-red-600 focus:outline-none focus:shadow-outline">
             <a className="text-2xl" href="https://food-shop-react.vercel.app/">
               Website
             </a>
           </button> */}
+        </Project>
+
+        <Project
+          name={t("description.covid")}
+          subName="React Typescript Tailwind"
+          link="https://github.com/peterdinis/Covid-19-React-App"
+          firstLinkName="Github"
+        >
+          <button className="border border-red-500 bg-red-500 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-red-600 focus:outline-none focus:shadow-outline">
+            <a
+              className="text-2xl"
+              href="https://cerulean-genie-7216fc.netlify.app/"
+            >
+              Website
+            </a>
+          </button>
         </Project>
       </div>
     </div>
