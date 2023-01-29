@@ -11,7 +11,7 @@ const MyProjects = () => {
       <div className="mt-6 px-10 grid grid-cols-4 gap-4">
         <Project
           name={t("description.projectOne")}
-          subName="C# Asp.NET Mvc"
+          subName="NodeJs Express Typescript MongoDB"
           link="https://github.com/peterdinis/Spst-Kniznica"
           firstLinkName="Github"
         />
@@ -54,14 +54,7 @@ const MyProjects = () => {
           subName="React Typescript Tailwind"
           link="https://github.com/peterdinis/React-Eshop"
           firstLinkName="Github"
-        >
-          {/* Later uncomment this  */}
-          {/*    <button className="border border-red-500 bg-red-500 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-red-600 focus:outline-none focus:shadow-outline">
-            <a className="text-2xl" href="https://food-shop-react.vercel.app/">
-              Website
-            </a>
-          </button> */}
-        </Project>
+        />
 
         <Project
           name={t("description.covid")}
