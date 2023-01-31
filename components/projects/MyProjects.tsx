@@ -11,7 +11,7 @@ const MyProjects = () => {
       <div className="mt-6 px-10 grid grid-cols-4 gap-4">
         <Project
           name={t("description.projectOne")}
-          subName="NodeJs Express Typescript MongoDB"
+          subName="NodeJs Express Typescript Postgresql"
           link="https://github.com/peterdinis/Spst-Kniznica"
           firstLinkName="Github"
         />
