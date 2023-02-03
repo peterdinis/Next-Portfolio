@@ -9,10 +9,17 @@ const MyProjects = () => {
         {t("description.myProjects")}
       </h1>
       <div className="mt-6 px-10 grid grid-cols-4 gap-4">
-      <Project
+        <Project
           name={t("description.projectOne")}
-          subName="Nextjs Prisma Postgresql"
+          subName="Nextjs React-Query Typescript"
           link="https://github.com/peterdinis/Spst-Kniznica"
+          firstLinkName="Github"
+        />
+
+        <Project
+          name={t("description.projectTwo")}
+          subName="NodeJs Express Typescript Prisma"
+          link="https://github.com/peterdinis/Spst-Kniznica-API"
           firstLinkName="Github"
         />
 
@@ -53,6 +60,13 @@ const MyProjects = () => {
           name={t("description.foo")}
           subName="React Typescript Tailwind"
           link="https://github.com/peterdinis/React-Eshop"
+          firstLinkName="Github"
+        />
+
+        <Project
+          name={t("description.foodAPI")}
+          subName="Node Prisma Typescript Express"
+          link="https://github.com/peterdinis?tab=repositories"
           firstLinkName="Github"
         />
 
