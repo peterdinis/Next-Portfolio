@@ -50,9 +50,9 @@ const MyProjects = () => {
         </Project>
 
         <Project
-          name={t("description.spotify")}
+          name={t("description.twitter")}
           subName="Nextjs Tailwind Firebase"
-          link="https://github.com/peterdinis/Spotify-Next"
+          link="https://github.com/peterdinis/Twitter-Next-Clone"
           firstLinkName="Github"
         />
 

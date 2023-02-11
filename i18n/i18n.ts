@@ -15,6 +15,7 @@ i18n
       en: {
         translation: {
           description: {
+            twitter: "Siple clone of twitter website",
             ecommerceSimple: "Online shop for selling clothes",
             foo: "Online food shop",
             covid:
@@ -80,6 +81,7 @@ i18n
       sk: {
         translation: {
           description: {
+            twitter: "Klon webstránky Twitter",
             ecommerceSimple: "Online shop na predaj oblečenia",
             snakeDesc: "Online webová hra had",
             netflix: "Kópia stránky netflix",
