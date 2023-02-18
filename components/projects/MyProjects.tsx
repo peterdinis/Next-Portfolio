@@ -51,15 +51,8 @@ const MyProjects = () => {
 
         <Project
           name={t("description.foo")}
-          subName="React Typescript Tailwind"
-          link="https://github.com/peterdinis/React-Eshop"
-          firstLinkName="Github"
-        />
-
-        <Project
-          name={t("description.foodAPI")}
-          subName="Node Prisma Typescript Express"
-          link="https://github.com/peterdinis?tab=repositories"
+          subName="Express Ejs Typescript MongoDB"
+          link="https://github.com/peterdinis/Food-Node-Eshop"
           firstLinkName="Github"
         />
 
