@@ -71,6 +71,33 @@ const MyProjects = () => {
             </a>
           </button>
         </Project>
+        <Project
+          name={t("description.netflix")}
+          subName="Nextjs Typescript Tailwind"
+          link="https://github.com/peterdinis/Netflix-Clone-UI"
+          firstLinkName="Github"
+        />
+        <Project
+          name={t("description.netflixAPI")}
+          subName="Asp.NET Postgresql"
+          link="https://github.com/peterdinis/Netlifx-Clone-API"
+          firstLinkName="Github"
+        />
+        <Project
+          name={t("description.snakeGame")}
+          subName="Html Css Javascript"
+          link="https://github.com/peterdinis/Javascript-Snake-Game"
+          firstLinkName="Github"
+        >
+          <button className="border border-red-500 bg-red-500 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-red-600 focus:outline-none focus:shadow-outline">
+            <a
+              className="text-2xl"
+              href="https://modest-elion-018f87.netlify.app/"
+            >
+              Website
+            </a>
+          </button>
+        </Project>
       </div>
     </div>
   );

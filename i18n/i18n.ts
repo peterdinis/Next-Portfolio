@@ -69,6 +69,7 @@ i18n
             foodApp: "Application for ordering food online",
             foodAppAPI: "Api to online food ordering apps",
             netflix: "Netflix website copy",
+            netflixAPI: "API for netflix project",
             spotify: "Spotify website clone",
             sevenDesc:
               "A simple control panel administrator can add customer books and issues and see questions from page users",
@@ -85,6 +86,7 @@ i18n
             ecommerceSimple: "Online shop na predaj oblečenia",
             snakeDesc: "Online webová hra had",
             netflix: "Kópia stránky netflix",
+            netflixAPI: "API pre netlifx applikáciu",
             gmailClone: "Klon stránky gmail",
             spotify: "Klon stránky spotify",
             libraryApp: "Jednoduchá knižničná aplikácia",
