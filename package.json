@@ -23,7 +23,6 @@
     "i18next": "^22.0.6",
     "i18next-browser-languagedetector": "^7.0.1",
     "next": "13.0.6",
-    "pg": "^8.8.0",
     "postcss": "^8.4.19",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -31,9 +30,5 @@
     "react-toastify": "^9.1.1",
     "tailwindcss": "^3.2.4",
     "typescript": "4.9.3"
-  },
-  "devDependencies": {
-    "@types/pg": "^8.6.5",
-    "cypress": "^12.3.0"
   }
 }
