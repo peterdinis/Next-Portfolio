@@ -8,9 +8,9 @@ import FallbackLoader from "../components/shared/FallbackLoader";
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <Suspense fallback={<FallbackLoader />}>
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </Suspense>
   );
 }
