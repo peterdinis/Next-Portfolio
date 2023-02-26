@@ -50,9 +50,16 @@ const MyProjects = () => {
         </Project>
 
         <Project
-          name={t("description.foo")}
-          subName="Express Ejs Typescript MongoDB"
-          link="https://github.com/peterdinis/Food-Node-Eshop"
+          name={t("description.foodApp")}
+          subName="React Typescript Graphql"
+          link="https://github.com/peterdinis/React-Eshop-Client"
+          firstLinkName="Github"
+        />
+
+        <Project
+          name={t("description.foodAppAPI")}
+          subName="Nestjs Graphql Prisma Postgresql"
+          link="https://github.com/peterdinis/Nest-Eshop-API"
           firstLinkName="Github"
         />
 
@@ -71,18 +78,6 @@ const MyProjects = () => {
             </a>
           </button>
         </Project>
-        <Project
-          name={t("description.netflix")}
-          subName="Nextjs Typescript Tailwind"
-          link="https://github.com/peterdinis/Netflix-Clone-UI"
-          firstLinkName="Github"
-        />
-        <Project
-          name={t("description.netflixAPI")}
-          subName="Asp.NET Postgresql"
-          link="https://github.com/peterdinis/Netlifx-Clone-API"
-          firstLinkName="Github"
-        />
         <Project
           name={t("description.snakeGame")}
           subName="Html Css Javascript"
