@@ -50,20 +50,6 @@ const MyProjects = () => {
         </Project>
 
         <Project
-          name={t("description.foodApp")}
-          subName="React Typescript Graphql"
-          link="https://github.com/peterdinis/React-Eshop-Client"
-          firstLinkName="Github"
-        />
-
-        <Project
-          name={t("description.foodAppAPI")}
-          subName="Nestjs Graphql Prisma Postgresql"
-          link="https://github.com/peterdinis/Nest-Eshop-API"
-          firstLinkName="Github"
-        />
-
-        <Project
           name={t("description.covid")}
           subName="React Typescript Tailwind"
           link="https://github.com/peterdinis/Covid-19-React-App"
