@@ -8,10 +8,10 @@ interface Props {
 
 export default function Layout(props: Props) {
   return (
-    <>
+    <React.Fragment>
       <Seo />
       <Navbar />
       {props.children}
-    </>
+    </React.Fragment>
   );
 }
