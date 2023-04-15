@@ -4,7 +4,7 @@ export default function Knowledge() {
 
   return (
     <div className="pb-2">
-        <KnowledgeWrapper />
+      <KnowledgeWrapper />
     </div>
   );
 }
