@@ -11,21 +11,21 @@ const MyProjects = () => {
       <div className="mt-6 px-10 grid grid-cols-4 gap-4">
         <Project
           name={t("description.projectOne")}
-          subName="Nextjs React-Query Typescript"
+          subName="Nextjs React-Query Typescript Tailwind Css"
           link="https://github.com/peterdinis/Spst-Kniznica"
           firstLinkName="Github"
         />
 
         <Project
           name={t("description.projectTwo")}
-          subName="NodeJs Express Typescript Prisma"
+          subName="NodeJs Express Typescript Prisma Jest"
           link="https://github.com/peterdinis/Spst-Kniznica-API"
           firstLinkName="Github"
         />
 
         <Project
           name={t("description.oldProject")}
-          subName="React Javascript Tailwind"
+          subName="React Javascript Tailwind Css"
           link="https://github.com/peterdinis/Portfolio-Dinis"
           firstLinkName="Github"
         >
@@ -51,7 +51,7 @@ const MyProjects = () => {
 
         <Project
           name={t("description.covid")}
-          subName="React Typescript Tailwind"
+          subName="React Typescript Tailwind Css"
           link="https://github.com/peterdinis/Covid-19-React-App"
           firstLinkName="Github"
         >
