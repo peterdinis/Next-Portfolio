@@ -24,13 +24,6 @@ const MyProjects = () => {
         />
 
         <Project
-          name={t("description.speedDateApp")}
-          subName="Nextjs T3 Prisma Chakra UI"
-          link="https://github.com/peterdinis/speed-date-app"
-          firstLinkName="Github"
-        />
-
-        <Project
           name={t("description.oldProject")}
           subName="React Javascript Tailwind"
           link="https://github.com/peterdinis/Portfolio-Dinis"
