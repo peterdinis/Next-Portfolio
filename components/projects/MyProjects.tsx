@@ -79,6 +79,31 @@ const MyProjects = () => {
             </a>
           </button>
         </Project>
+
+        <Project
+          link={"https://github.com/peterdinis/svelte-barber-shop"} 
+          name={t("description.barberShop")} 
+          firstLinkName={"Github"} 
+          subName={"SvelteKit Typescript Prisma Tailwind"} 
+        />
+        <Project 
+          link={"https://github.com/peterdinis/NextJs-Eshop"} 
+          name={t("description.simpleFoodShop")} 
+          firstLinkName={"Github"} 
+          subName={"Nextjs Typescript Tailwind Prisma"} 
+        />
+        <Project 
+          link={"https://github.com/peterdinis/Graph-Talk-Frontend"} 
+          name={t("description.graphTalkFE")} 
+          firstLinkName={"Github"} 
+          subName={"Nextjs Typescript Graphql Tailwind"} 
+        />
+        <Project 
+          link={"https://github.com/peterdinis/Graph-Talk-Backend"} 
+          name={t("description.graphTalkBE")} 
+          firstLinkName={"Github"} 
+          subName={"Express Typescript Graphql Prisma"} 
+        />
       </div>
     </div>
   );
