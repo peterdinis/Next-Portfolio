@@ -74,8 +74,7 @@ i18n
             netflix: "Netflix website copy",
             netflixAPI: "API for netflix project",
             simpleFoodShop: "Application for buying food online",
-            graphTalkFE: "FE for social site graphTalk",
-            graphTalkBE: "BE for social site graphTalk",
+            graphTalkFE: "Social site graphTalk",
             spotify: "Spotify website clone",
             sevenDesc:
               "A simple control panel administrator can add customer books and issues and see questions from page users",
@@ -88,8 +87,7 @@ i18n
       sk: {
         translation: {
           description: {
-            graphTalkFE: "Frontend pre sociálnu sieť graphTalk",
-            graphTalkBE: "API pre sociálnu sieť graphTalk",
+            graphTalkFE: "Socialná sieť graphTalk",
             simpleFoodShop: "Applikácia na objednávanie jedál",
             barberShop: "Aplikácia pre holičstvo používateľ si vie objednať termín o hoľiča",
             twitter: "Klon webstránky Twitter",

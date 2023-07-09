@@ -93,16 +93,10 @@ const MyProjects = () => {
           subName={"Nextjs Typescript Tailwind Prisma"} 
         />
         <Project 
-          link={"https://github.com/peterdinis/Graph-Talk-Frontend"} 
+          link={"https://github.com/peterdinis/Django-Social-Site"} 
           name={t("description.graphTalkFE")} 
           firstLinkName={"Github"} 
-          subName={"Nextjs Typescript Graphql Tailwind"} 
-        />
-        <Project 
-          link={"https://github.com/peterdinis/Graph-Talk-Backend"} 
-          name={t("description.graphTalkBE")} 
-          firstLinkName={"Github"} 
-          subName={"Express Typescript Graphql Prisma"} 
+          subName={"Python Django Html Css Js"} 
         />
       </div>
     </div>
