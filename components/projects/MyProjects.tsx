@@ -80,21 +80,9 @@ const MyProjects = () => {
           </button>
         </Project>
 
-        <Project
-          link={"https://github.com/peterdinis/svelte-barber-shop"} 
-          name={t("description.barberShop")} 
-          firstLinkName={"Github"} 
-          subName={"SvelteKit Typescript Prisma Tailwind"} 
-        />
         <Project 
-          link={"https://github.com/peterdinis/NextJs-Eshop"} 
+          link={"https://github.com/peterdinis/Django-Simple-Shop"} 
           name={t("description.simpleFoodShop")} 
-          firstLinkName={"Github"} 
-          subName={"Nextjs Typescript Tailwind Prisma"} 
-        />
-        <Project 
-          link={"https://github.com/peterdinis/Django-Social-Site"} 
-          name={t("description.graphTalkFE")} 
           firstLinkName={"Github"} 
           subName={"Python Django Html Css Js"} 
         />
