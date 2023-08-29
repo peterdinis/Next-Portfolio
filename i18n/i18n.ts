@@ -81,6 +81,7 @@ i18n
             onlineSite: "Website",
             sevenDesc:
               "A simple control panel administrator can add customer books and issues and see questions from page users",
+            zoom_mate: "Online application for speed dating",
             uuappText:
               "This project was done during high school. The unicorn company announced a competition and the school I visited to apply. With the help of their framework we had to create a page. Their framework is based on the principle of React Node Mongodb (Modified version)",
           },
@@ -90,6 +91,7 @@ i18n
       sk: {
         translation: {
           description: {
+            zoom_mate: "Online applikácia na rýchle rande",
             jumpSoft: "Interná vývojová platforma a jazyk spoločnosti (Twinzu), Java, Javascript, PostgreSQL, GitLab, Docker. Projekty, na ktorých pracujem: 1. Slovenská komora daňových poradcov. 2. Úrad pre dohľad nad zdravotnou starostlivosťou UDZS",
             graphTalkFE: "Socialná sieť graphTalk",
             simpleFoodShop: "Applikácia na objednávanie jedál",

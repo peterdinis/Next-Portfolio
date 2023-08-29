@@ -31,7 +31,7 @@ const MyProjects = () => {
         >
           <button className="border border-red-500 bg-red-500 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-red-600 focus:outline-none focus:shadow-outline">
             <a className="text-2xl" href="https://portfolio-dinis.vercel.app/">
-            {t("description.onlineSite")}
+              {t("description.onlineSite")}
             </a>
           </button>
         </Project>
@@ -44,7 +44,7 @@ const MyProjects = () => {
         >
           <button className="border border-red-500 bg-red-500 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-red-600 focus:outline-none focus:shadow-outline">
             <a className="text-2xl" href="https://reddit-next-js.vercel.app/">
-            {t("description.onlineSite")}
+              {t("description.onlineSite")}
             </a>
           </button>
         </Project>
@@ -87,17 +87,24 @@ const MyProjects = () => {
         >
           <button className="border border-red-500 bg-red-500 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-red-600 focus:outline-none focus:shadow-outline">
             <a className="text-2xl" href="react-code-editor-flame.vercel.app">
-            {t("description.onlineSite")}
+              {t("description.onlineSite")}
             </a>
           </button>
         </Project>
 
-        <Project 
-          link={"https://github.com/peterdinis/Django-Simple-Shop"} 
-          name={t("description.simpleFoodShop")} 
-          firstLinkName={"Github"} 
-          subName={"Python Django Html Css Js"} 
-        />
+        <Project
+          name={t("description.netflix")}
+          subName="Nextjs Typescript Firebase SWR Recoil"
+          link="https://github.com/peterdinis/Next-Flix"
+          firstLinkName="Github"
+        ></Project>
+
+        <Project
+          name={t("description.zoom_mate")}
+          subName="Nextjs Typescript Prisma Server-Actions"
+          link="https://github.com/peterdinis/Zoom-Mate"
+          firstLinkName="Github"
+        ></Project>
       </div>
     </div>
   );
