@@ -54,7 +54,9 @@ function TimeLine() {
               <h1 className="text-lg font-bold">Jump Soft</h1>
               <p className="font-bold">1.3.2023</p>
             </div>
-            <p className="text-center text-white"> </p>
+            <p className="text-center text-white">
+            {t("description.jumpSoft")}
+            </p>
           </div>
         </div>
       </div>

@@ -31,7 +31,7 @@ const MyProjects = () => {
         >
           <button className="border border-red-500 bg-red-500 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-red-600 focus:outline-none focus:shadow-outline">
             <a className="text-2xl" href="https://portfolio-dinis.vercel.app/">
-              Website
+            {t("description.onlineSite")}
             </a>
           </button>
         </Project>
@@ -44,7 +44,7 @@ const MyProjects = () => {
         >
           <button className="border border-red-500 bg-red-500 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-red-600 focus:outline-none focus:shadow-outline">
             <a className="text-2xl" href="https://reddit-next-js.vercel.app/">
-              Website
+            {t("description.onlineSite")}
             </a>
           </button>
         </Project>
@@ -60,7 +60,7 @@ const MyProjects = () => {
               className="text-2xl"
               href="https://cerulean-genie-7216fc.netlify.app/"
             >
-              Website
+              {t("description.onlineSite")}
             </a>
           </button>
         </Project>
@@ -75,7 +75,19 @@ const MyProjects = () => {
               className="text-2xl"
               href="https://modest-elion-018f87.netlify.app/"
             >
-              Website
+              {t("description.onlineSite")}
+            </a>
+          </button>
+        </Project>
+        <Project
+          name={t("description.customEditor")}
+          subName="React Typescript Material UI Recoil"
+          link="https://github.com/peterdinis/React-Code-Editor"
+          firstLinkName="Github"
+        >
+          <button className="border border-red-500 bg-red-500 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-red-600 focus:outline-none focus:shadow-outline">
+            <a className="text-2xl" href="react-code-editor-flame.vercel.app">
+            {t("description.onlineSite")}
             </a>
           </button>
         </Project>
