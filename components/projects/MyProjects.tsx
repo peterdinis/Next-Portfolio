@@ -91,6 +91,13 @@ const MyProjects = () => {
             </a>
           </button>
         </Project>
+
+        <Project 
+          link={"https://github.com/peterdinis/Django-Simple-Shop"} 
+          name={t("description.simpleFoodShop")} 
+          firstLinkName={"Github"} 
+          subName={"Python Django Html Css Js"} 
+        />
       </div>
     </div>
   );

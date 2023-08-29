@@ -43,6 +43,7 @@ i18n
             projectSevenD: "Crud photos plus full authentication",
             work: "My work experience",
             reddit: "Reddit app copy",
+            barberShop: "The application for the barber shop allows the user to book an appointment with a barber",
             libraryApp: "A simple library application",
             snakeGame: "Snake web game",
             snakeDesc: "Online web game snake",
@@ -74,6 +75,8 @@ i18n
             foodAppAPI: "Api to online food ordering apps",
             netflix: "Netflix website copy",
             netflixAPI: "API for netflix project",
+            simpleFoodShop: "Application for buying food online",
+            graphTalkFE: "Social site graphTalk",
             spotify: "Spotify website clone",
             onlineSite: "Website",
             sevenDesc:
@@ -88,6 +91,9 @@ i18n
         translation: {
           description: {
             jumpSoft: "Interná vývojová platforma a jazyk spoločnosti (Twinzu), Java, Javascript, PostgreSQL, GitLab, Docker. Projekty, na ktorých pracujem: 1. Slovenská komora daňových poradcov. 2. Úrad pre dohľad nad zdravotnou starostlivosťou UDZS",
+            graphTalkFE: "Socialná sieť graphTalk",
+            simpleFoodShop: "Applikácia na objednávanie jedál",
+            barberShop: "Aplikácia pre holičstvo používateľ si vie objednať termín o hoľiča",
             twitter: "Klon webstránky Twitter",
             onlineSite: "Webstránka",
             customEditor: "Jednoduchý Html, Css, Js editor pre písanie kódu",
