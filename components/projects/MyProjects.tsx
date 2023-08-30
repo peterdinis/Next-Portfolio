@@ -18,8 +18,8 @@ const MyProjects = () => {
 
         <Project
           name={t("description.projectTwo")}
-          subName="NodeJs Express Typescript Prisma Jest"
-          link="https://github.com/peterdinis/Spst-Kniznica-API"
+          subName="C# ASP.NET Postgresql"
+          link="https://github.com/peterdinis/SPST-Kniznica-NET-API"
           firstLinkName="Github"
         />
 

@@ -26,7 +26,7 @@ i18n
             socialGraphql: "Simple Social site instagram clone",
             aboutMe: "A few sentences about me",
             firstSentence:
-              "Hi My name is Peter Dinis. I am 22 years old. I come from Bardejov. I visited Secondary industrial school(SPST) in Bardejov. My favorite sports are Football and Voleyball.",
+              "Hi.My name is Peter Dinis. I am 22 years old. I come from Bardejov. I visited Secondary industrial school(SPST) in Bardejov. My favorite sports are Football and Voleyball.",
             secondSentence:
               "I have the most experience with technologies: React Nestjs and Typescript Node.",
             favoriteStack: "My favorite stack",
@@ -123,7 +123,7 @@ i18n
             aboutMe: "Pár viet o mne",
             workFour: "(11-Mesiacov) Navisys s.r.o Nestjs Postgresql Nx Jest",
             firstSentence:
-              "Ahoj Volám sa Peter Dinis. Mám 22 rokov. Pochádzam z Bardejova. Naštevoval som Strednú priemyselnú školu technickú(SPŠT) v Bardejove. Medzi moje záujmy patrí futbal, volejbal.",
+              "Ahoj. Volám sa Peter Dinis. Mám 22 rokov. Pochádzam z Bardejova. Naštevoval som Strednú priemyselnú školu technickú(SPŠT) v Bardejove. Medzi moje záujmy patrí futbal, volejbal.",
             secondSentence:
               "Najväčšie skúsenosti mám z technológiami: React Nestjs a Typescript Node.",
             favoriteStack: "Môj obľubený stack",
