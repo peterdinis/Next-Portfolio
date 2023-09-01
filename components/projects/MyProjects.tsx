@@ -98,13 +98,6 @@ const MyProjects = () => {
           link="https://github.com/peterdinis/Next-Flix"
           firstLinkName="Github"
         ></Project>
-
-        <Project
-          name={t("description.zoom_mate")}
-          subName="Nextjs Typescript Prisma Server-Actions"
-          link="https://github.com/peterdinis/Zoom-Mate"
-          firstLinkName="Github"
-        ></Project>
       </div>
     </div>
   );
