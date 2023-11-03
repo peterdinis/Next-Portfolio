@@ -79,6 +79,7 @@ i18n
             graphTalkFE: "Social site graphTalk",
             spotify: "Spotify website clone",
             onlineSite: "Website",
+            docuCraft: "Docu-Craft Your friend for work from pdf",
             sevenDesc:
               "A simple control panel administrator can add customer books and issues and see questions from page users",
             zoom_mate: "Online application for speed dating",
@@ -98,6 +99,7 @@ i18n
             barberShop: "Aplikácia pre holičstvo používateľ si vie objednať termín o hoľiča",
             twitter: "Klon webstránky Twitter",
             onlineSite: "Webstránka",
+            docuCraft: "Docu-Craft Tvoj kamarát pre prácu z pdf",
             customEditor: "Jednoduchý Html, Css, Js editor pre písanie kódu",
             ecommerceSimple: "Online shop na predaj oblečenia",
             snakeDesc: "Online webová hra had",

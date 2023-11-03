@@ -12,7 +12,7 @@ const MyProjects = () => {
         <Project
           name={t("description.projectOne")}
           subName="Nextjs React-Query Typescript Tailwind Css"
-          link="https://github.com/peterdinis/Spst-Kniznica"
+          link="https://github.com/peterdinis/spst-kniznica-2.0"
           firstLinkName="Github"
         />
 
@@ -93,11 +93,11 @@ const MyProjects = () => {
         </Project>
 
         <Project
-          name={t("description.netflix")}
-          subName="Nextjs Typescript Firebase SWR Recoil"
-          link="https://github.com/peterdinis/Next-Flix"
-          firstLinkName="Github"
-        ></Project>
+          link={"https://github.com/peterdinis/Docu-Craft"}
+          name={t("description.docuCraft")}
+          firstLinkName={"Github"}
+          subName={"Nextjs T3 Mysql"}
+        />
       </div>
     </div>
   );
