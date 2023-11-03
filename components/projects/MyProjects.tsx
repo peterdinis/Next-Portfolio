@@ -96,7 +96,14 @@ const MyProjects = () => {
           link={"https://github.com/peterdinis/Docu-Craft"}
           name={t("description.docuCraft")}
           firstLinkName={"Github"}
-          subName={"Nextjs T3 Mysql"}
+          subName={"Nextjs T3 Typescript Mysql"}
+        />
+
+        <Project
+          link={"https://github.com/peterdinis/Devnotion"}
+          name={t("description.devnotion")}
+          firstLinkName={"Github"}
+          subName={"NextjsTypescript Convex"}
         />
       </div>
     </div>

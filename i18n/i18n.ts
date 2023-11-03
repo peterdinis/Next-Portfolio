@@ -80,6 +80,7 @@ i18n
             spotify: "Spotify website clone",
             onlineSite: "Website",
             docuCraft: "Docu-Craft Your friend for work from pdf",
+            devnotion: "Simple Notion clone",
             sevenDesc:
               "A simple control panel administrator can add customer books and issues and see questions from page users",
             zoom_mate: "Online application for speed dating",
@@ -105,6 +106,7 @@ i18n
             snakeDesc: "Online webová hra had",
             contactMe: "Ak ťa moja tvorba zaujala napíš mi na môj email",
             netflix: "Kópia stránky netflix",
+            devnotion: "Notion stránka klon",
             netflixAPI: "API pre netlifx applikáciu",
             gmailClone: "Klon stránky gmail",
             spotify: "Klon stránky spotify",
