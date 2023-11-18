@@ -18,7 +18,7 @@ const Home: NextPage = () => {
       <Knowledge />
       <ContactInfo />
       <Footer />
-      <ScrollToTop />
+      <ScrollToTop smooth={true} />
     </>
   );
 };
