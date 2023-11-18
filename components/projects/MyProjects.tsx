@@ -9,7 +9,7 @@ const MyProjects = () => {
         {t("description.myProjects")}
       </h1>
       <div className="mt-6 px-10 grid grid-cols-4 gap-4">
-        <Project
+        {/* <Project
           name={t("description.projectOne")}
           subName="Nextjs React-Query Typescript Tailwind Css"
           link="https://github.com/peterdinis/spst-kniznica-2.0"
@@ -20,6 +20,20 @@ const MyProjects = () => {
           name={t("description.projectTwo")}
           subName="Typescript Express.js Postgresql"
           link="https://github.com/peterdinis/Spst-Kniznica-API"
+          firstLinkName="Github"
+        /> */}
+
+        <Project 
+          name={t("description.ecommerceSimple")}
+          subName="Nextjs Typescript Prisma Postgresql Tailwind"
+          link="https://github.com/peterdinis/novelnest"
+          firstLinkName="Github"
+        />
+
+        <Project 
+          name={t("description.dropShared")}
+          subName="Nextjs Typescript Firebase Tailwind"
+          link="https://github.com/peterdinis/Drop-Shared"
           firstLinkName="Github"
         />
 
@@ -91,20 +105,6 @@ const MyProjects = () => {
             </a>
           </button>
         </Project>
-
-        <Project
-          link={"https://github.com/peterdinis/Docu-Craft"}
-          name={t("description.docuCraft")}
-          firstLinkName={"Github"}
-          subName={"Nextjs T3 Typescript Mysql"}
-        />
-
-        <Project
-          link={"https://github.com/peterdinis/Devnotion"}
-          name={t("description.devnotion")}
-          firstLinkName={"Github"}
-          subName={"NextjsTypescript Convex"}
-        />
       </div>
     </div>
   );

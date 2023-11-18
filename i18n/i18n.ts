@@ -16,7 +16,7 @@ i18n
         translation: {
           description: {
             twitter: "Siple clone of twitter website",
-            ecommerceSimple: "Online shop for selling clothes",
+            ecommerceSimple: "Online shop for selling books",
             foo: "Online food shop",
             covid:
               "An application that displays deaths, vaccine variants for covid",
@@ -84,6 +84,7 @@ i18n
             sevenDesc:
               "A simple control panel administrator can add customer books and issues and see questions from page users",
             zoom_mate: "Online application for speed dating",
+            dropShared: "Application for uploading and sharing files",
             uuappText:
               "This project was done during high school. The unicorn company announced a competition and the school I visited to apply. With the help of their framework we had to create a page. Their framework is based on the principle of React Node Mongodb (Modified version)",
           },
@@ -96,13 +97,14 @@ i18n
             zoom_mate: "Online applikácia na rýchle rande",
             jumpSoft: "Interná vývojová platforma a jazyk spoločnosti (Twinzu), Java, Javascript, PostgreSQL, GitLab, Docker. Projekty, na ktorých pracujem: 1. Slovenská komora daňových poradcov. 2. Úrad pre dohľad nad zdravotnou starostlivosťou UDZS",
             graphTalkFE: "Socialná sieť graphTalk",
+            dropShared: "Applikácia pre vzdelanie a ukladanie súborov",
             simpleFoodShop: "Applikácia na objednávanie jedál",
             barberShop: "Aplikácia pre holičstvo používateľ si vie objednať termín o hoľiča",
             twitter: "Klon webstránky Twitter",
             onlineSite: "Webstránka",
             docuCraft: "Docu-Craft Tvoj kamarát pre prácu z pdf",
             customEditor: "Jednoduchý Html, Css, Js editor pre písanie kódu",
-            ecommerceSimple: "Online shop na predaj oblečenia",
+            ecommerceSimple: "Online shop na predaj kníh",
             snakeDesc: "Online webová hra had",
             contactMe: "Ak ťa moja tvorba zaujala napíš mi na môj email",
             netflix: "Kópia stránky netflix",
