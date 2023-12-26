@@ -6,7 +6,6 @@ import Knowledge from "../components/projects/Knowledge";
 import MyProjects from "../components/projects/MyProjects";
 import TimeLine from "../components/projects/TimeLine";
 import Footer from "../components/shared/Footer";
-import ScrollToTop from "react-scroll-to-top";
 
 const Home: NextPage = () => {
   return (
@@ -18,7 +17,6 @@ const Home: NextPage = () => {
       <Knowledge />
       <ContactInfo />
       <Footer />
-      <ScrollToTop smooth={true} />
     </>
   );
 };

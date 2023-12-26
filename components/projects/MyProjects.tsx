@@ -9,28 +9,28 @@ const MyProjects = () => {
         {t("description.myProjects")}
       </h1>
       <div className="mt-6 px-10 grid grid-cols-4 gap-4">
-        {/* <Project
-          name={t("description.projectOne")}
-          subName="Nextjs React-Query Typescript Tailwind Css"
-          link="https://github.com/peterdinis/spst-kniznica-2.0"
+        <Project
+          name={t("description.googleDocs")}
+          subName="React Typescript Tailwind"
+          link="https://github.com/peterdinis/Google-Docs-UI"
           firstLinkName="Github"
         />
 
         <Project
-          name={t("description.projectTwo")}
-          subName="Typescript Express.js Postgresql"
-          link="https://github.com/peterdinis/Spst-Kniznica-API"
-          firstLinkName="Github"
-        /> */}
-
-        <Project 
-          name={t("description.ecommerceSimple")}
-          subName="Nextjs Typescript Prisma Postgresql Tailwind"
-          link="https://github.com/peterdinis/novelnest"
+          name={t("description.googleDocsAPI")}
+          subName="Nestjs mysql sequelize"
+          link="https://github.com/peterdinis/Google-Docs-API"
           firstLinkName="Github"
         />
 
-        <Project 
+        <Project
+          name={t("description.docuCraft")}
+          subName="Nextjs Trpc Typescript Tailwind Postgresql"
+          link="https://github.com/peterdinis/Docu-Craft"
+          firstLinkName="Github"
+        />
+
+        <Project
           name={t("description.dropShared")}
           subName="Nextjs Typescript Firebase Tailwind"
           link="https://github.com/peterdinis/Drop-Shared"

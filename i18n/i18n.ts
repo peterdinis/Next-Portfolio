@@ -15,7 +15,8 @@ i18n
       en: {
         translation: {
           description: {
-            twitter: "Siple clone of twitter website",
+            googleDocs: "Siple clone of google docs",
+            googleDocsAPI: "Google docs api",
             ecommerceSimple: "Online shop for selling books",
             foo: "Online food shop",
             covid:
@@ -56,7 +57,7 @@ i18n
             descriptionThree:
               "The company where I worked creates an e‑shop where licenses for various software products can be sold. There are different roles in the eshop (seller, buyer, supplier, distributor). In the beginning, in order to be able to buy something on the eshop called superlicensor, I had to buy a superlicensor paid license. I was a member of the 7 team that worked on that application). Technologies used Vuejs Nestjs Typescript Docker Postgresql Jest.",
             workTwo: "(3-weeks) Erasmus Company Think Easy React.js",
-            jumpSoft: "Company's internal development platform and language (Twinzu), Java, Javascript, PostgreSQL, GitLab, Docker. Projects I work on: 1. Slovak Chamber of Tax Advisors. 2. UDZS Office for Health Care Supervision",
+            jumpSoft: "Company's internal development platform and language (Twinzu), Java, Javascript, PostgreSQL, GitLab, Docker. Projects I work on or I worked on: 1. Slovak Chamber of Tax Advisors. 2. UDZS Office for Health Care Supervision",
             workFour: "(11-Months) Navisys s.r.o  Nestjs Postgresql Nx Jest",
             workThree: "(3-Months) Company Think Easy React.js Typescript",
             knowledge: "My knowledge",
@@ -95,12 +96,13 @@ i18n
         translation: {
           description: {
             zoom_mate: "Online applikácia na rýchle rande",
-            jumpSoft: "Interná vývojová platforma a jazyk spoločnosti (Twinzu), Java, Javascript, PostgreSQL, GitLab, Docker. Projekty, na ktorých pracujem: 1. Slovenská komora daňových poradcov. 2. Úrad pre dohľad nad zdravotnou starostlivosťou UDZS",
+            googleDocsAPI: "API pre projekt google docs",
+            jumpSoft: "Interná vývojová platforma a jazyk spoločnosti (Twinzu), Java, Javascript, PostgreSQL, GitLab, Docker. Projekty, na ktorých pracujem/pracoval som: 1. Slovenská komora daňových poradcov. 2. Úrad pre dohľad nad zdravotnou starostlivosťou UDZS",
             graphTalkFE: "Socialná sieť graphTalk",
             dropShared: "Applikácia pre vzdelanie a ukladanie súborov",
             simpleFoodShop: "Applikácia na objednávanie jedál",
             barberShop: "Aplikácia pre holičstvo používateľ si vie objednať termín o hoľiča",
-            twitter: "Klon webstránky Twitter",
+            googleDocs: "Klon google dokumentov",
             onlineSite: "Webstránka",
             docuCraft: "Docu-Craft Tvoj kamarát pre prácu z pdf",
             customEditor: "Jednoduchý Html, Css, Js editor pre písanie kódu",
