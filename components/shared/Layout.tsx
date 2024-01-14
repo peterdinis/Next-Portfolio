@@ -1,19 +1,19 @@
-import React from "react";
-import Navbar from "./Navbar";
-import Seo from "./Seo";
-import ScrollToTop from "react-scroll-to-top";
+import React from 'react';
+import Navbar from './Navbar';
+import Seo from './Seo';
+import ScrollToTop from 'react-scroll-to-top';
 
 interface Props {
-  children: React.ReactNode;
+    children: React.ReactNode;
 }
 
 export default function Layout(props: Props) {
-  return (
-    <>
-      <Seo />
-      <Navbar />
-      {props.children}
-      <ScrollToTop smooth={true} />
-    </>
-  );
+    return (
+        <>
+            <Seo />
+            <Navbar />
+            {props.children}
+            <ScrollToTop smooth={true} />
+        </>
+    );
 }
